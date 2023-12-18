@@ -1,0 +1,66 @@
+﻿////////////////////////////////////////
+ESTÁ PROHIBIDO USAR ASISTENTES DE CÓDIGO.
+/////////////////////////////////////////
+Se puede consultar foros o webs de programadores.
+Puedes buscar lo que necesites. Debes anotarlo en:
+
+ayuda.txt
+
+fichero que tienes que entregar con lo que hayas buscado y donde lo has encontrado.
+Si hay algo nuevo que no se haya explicado y no está en ayuda.txt se invalida el examen y la calificación será un 0.
+
+Completar pedido.json (6 puntos).
+-----------------------------------
+Se tiene como origen pedido.json.
+{
+  "codigoCliente": 1523,
+  "productos": [
+    {
+      "2900000011946": {
+        "cantidad": 5
+      }
+    },
+    {
+      "5415115555812": {
+        "cantidad": 1
+      }
+    },
+    {
+      "4005209151733": {
+        "cantidad": 9
+      }
+    }
+  ]
+}
+Usando como datos fnac.xml, manipular pedido.json para que tenga este contenido:
+{
+    "codigoCliente": 1523,
+    "productos": [
+        {
+            "2900000011946": {
+                "cantidad": 5,
+                "nombre": "2NDAMANO X360 UP XBOX 360",
+                "precio": 6.9,
+                "importe": 34.5
+            }
+        },
+        {
+            "5415115555812": {
+                "cantidad": 1,
+                "nombre": "Skin Stickers Para Nintendo dsi (Sticker : Cygne)",
+                "precio": 14.99,
+                "importe": 14.99
+            }
+        },
+        {
+            "4005209151733": {
+                "cantidad": 9,
+                "nombre": "WWE Smackdown Vs RAW 2011 Platinum PSP",
+                "precio": 19.95,
+                "importe": 179.55
+            }
+        }
+    ],
+    "totalPedidos": 229.04
+}
+
